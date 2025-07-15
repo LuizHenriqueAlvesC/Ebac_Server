@@ -1,4 +1,4 @@
-package br.com.luiz.vendas.online;
+package br.com.luiz.vendas.online.ProdutoServiceAlunos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -9,10 +9,10 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @SpringBootApplication
 @RefreshScope
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-public class ClienteServiceAlunosApplication {
+public class ProdutoServiceAlunosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClienteServiceAlunosApplication.class, args);
+		SpringApplication.run(ProdutoServiceAlunosApplication.class, args);
 	}
 
 }

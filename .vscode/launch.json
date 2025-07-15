@@ -8,6 +8,28 @@
       "mainClass": "br.com.luiz.vendas.online.ConfigServerAlunosApplication",
       "projectName": "ConfigServerAlunos",
       "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=56444 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ConfigServerAlunos"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ClienteServiceAlunosApplication<ClienteServiceAlunos>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.luiz.vendas.online.ClienteServiceAlunosApplication",
+      "projectName": "ClienteServiceAlunos",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=56448 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ClienteServiceAlunos"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ProdutoServiceAlunosApplication<ProdutoServiceAlunos>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.luiz.vendas.online.ProdutoServiceAlunosApplication",
+      "projectName": "ProdutoServiceAlunos",
+      "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
   ]
