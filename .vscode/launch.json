@@ -31,6 +31,26 @@
       "projectName": "ProdutoServiceAlunos",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ProdutoServiceAlunosApplication<ProdutoServiceAlunos>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.luiz.vendas.online.ProdutoServiceAlunos.ProdutoServiceAlunosApplication",
+      "projectName": "ProdutoServiceAlunos",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-VendaServiceAlunosApplication<VendaServiceAlunos>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.luiz.vendas.online.VendaServiceAlunos.VendaServiceAlunosApplication",
+      "projectName": "VendaServiceAlunos",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
