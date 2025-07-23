@@ -51,6 +51,16 @@
       "projectName": "VendaServiceAlunos",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-VendaServiceProfessorApplication<VendaServiceProfessor>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.rpires.VendaServiceProfessor.VendaServiceProfessorApplication",
+      "projectName": "VendaServiceProfessor",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
